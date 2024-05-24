@@ -16,7 +16,6 @@ jobs:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
           POSTGRES_DB: django_db
-
   steps: 
    - name: Checkout code
      uses: actions/checkout@v2
