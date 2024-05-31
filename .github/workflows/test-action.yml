@@ -29,4 +29,4 @@ jobs:
       - name: Run tests
         run: |
           python blog_project/manage.py migrate
-          python blog_project/manage.py test 
+          python blog_project/manage.py test
